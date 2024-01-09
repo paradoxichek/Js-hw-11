@@ -1,0 +1,227 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1200px;
+}
+img{
+    max-width: 100%;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 250px;
+    background-color: yellow;
+   margin-left: 50px;
+    margin-top: 100px;
+    border-radius: 50%;
+}
+.elem{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+
+    /* transform */
+    
+    transform: translateY(-100px);  
+     transform: translateX(100px);
+     /* сначало X Y */
+     transform: translate(100px,200px);
+
+     /* scale-mashtab */
+
+     transform: scale(2);
+     transform: scaleX(2);
+     transform: scaleY(2);
+     /* rotate */
+
+     transform: rotate(-90deg);
+     transform: rotateX(100px);
+     transform: rotateY(100px);
+
+     /* skew */
+     transform: skewX(45deg);
+     transform: skewY(45deg);
+     transform: skew(45deg, -45deg);
+     transform: none;
+
+/* animation */
+
+animation: jump 2000ms  ease  infinite ;
+}
+
+
+@keyframes jump{
+0%{
+transform:  rotate(0);
+
+
+}
+
+50%{
+    transform:rotate(180deg) ;
+   border-radius: 50%;
+}
+
+100%{
+   transform: rotate(360deg);
+   
+} 
+
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 250px;
+    background-color: yellow;
+   margin-left: 50px;
+    margin-top: 100px;
+    border-radius: 50%;
+}
+
+.box3{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 250px;
+    background-color: yellow;
+
+    margin-top: 100px;
+    border-radius: 50%;
+    margin-right: 50px;
+}
+
+.elem2{
+    animation: color 1000ms  ease-in  infinite alternate ;
+}
+
+@keyframes color{
+    0%{
+background-color: orange;
+    }
+20%{
+    background-color: green;
+}
+    40%{
+        background-color: palevioletred;
+    }
+    60%{
+        background-color: greenyellow;
+    }
+    80%{
+        background-color: blue;
+    }
+    100%{
+        background-color: pink;
+    }
+}
+.elem2{
+    width: 100px;
+height: 100px;
+background-color: orange;
+}
+
+.elem3{
+    animation: movement  3000ms ease   infinite  ;
+}
+.elem3{
+    width: 80px;
+    height: 80px;
+    background-color: blue;
+}
+ @keyframes movement{
+    0%{
+        
+border-radius: 50%;
+    }
+
+    10%{
+border-radius: 50%
+    }
+20%{
+    transform: translateX(-200px);
+    background-color: red;
+    border-radius: 50%;
+}
+
+    40%{
+        transform: translateY(-200px) rotate(-90deg);
+        background-color: orange;
+
+        
+    }
+
+    60%{
+       transform: translateX(200px); 
+background-color: green;
+
+
+    }
+
+    80%{
+        transform: translateY(200px) rotate(-90deg);
+        background-color: orange;
+       
+        
+    }
+} 
+
+.header h1{
+    font-family: monospace;
+    margin: 0 auto;
+text-align: center;
+font-size: 40px;
+margin-bottom: 5px;
+}
+
+.header h2{
+    width: 18ch;
+margin: 0 auto;
+    font-family: monospace;
+    text-align: center;
+    font-size: 40px;
+white-space: nowrap;
+overflow: hidden;
+
+    animation:flashing-border 0.75s ease step-end infinite;
+    animation:printed-text 4s ease infinite;
+}
+
+.footer p{
+    margin-top: 200px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: monospace;
+    
+}
+@keyframes flashing-border{
+    0%{
+        border-color: orange;
+    }
+    50%{
+        border-color: transparent;
+    }
+    100%{
+        border-color: orange;
+    }
+}
+
+@keyframes printed-text{
+from{
+    width: 0;
+}
+}

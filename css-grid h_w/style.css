@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-auto-rows: 200px;
+    gap: 16px;
+    
+}
+
+
+#one{
+grid-column: 1/3;
+grid-row: 1/3;
+}
+#two{
+    grid-row: 1/4;
+}
+
+#three{
+    grid-row: 1/2;
+
+}
+#four{
+    grid-row: 1/2;
+}
+#five{
+grid-column: 4/6;
+grid-row: 2/4;
+}
+.elem img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

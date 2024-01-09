@@ -1,0 +1,167 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+.container{
+    margin: 0 auto;
+width: 1200px;
+}
+
+.img{
+max-width: 100%;
+}
+
+header{
+    padding: 50px 60px 40px;
+display: flex;
+justify-content: space-between;
+}
+
+.left{
+display: flex;
+gap: 34px;
+}
+
+.left a{
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    font-family: New York Small;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 170%; /* 34px */
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+}
+
+.head{
+    background: #FFF;
+box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.16);
+}
+
+.img{
+display: flex;
+justify-content: center;
+padding-top: 77px;
+padding-bottom: 44px;
+}
+
+h1{
+    color: #000;
+    text-align: center;
+    font-family: New York Extra Large;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 54px */
+    padding-bottom: 32px;
+}
+
+p{
+    color: #000;
+    text-align: center;
+    font-family: SF Mono;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%; /* 34px */
+    padding-bottom: 34px;   
+}
+
+hr{
+    width: 640px;
+    height: 2px;
+}
+
+.hr{
+display: flex;
+justify-content: center;
+}
+
+.articles-grid{
+    gap: 28px;
+display: grid;
+grid-template-columns: repeat(2,1fr);
+}
+
+.articles-item p{
+    color: #000;
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 26.4px */
+}
+.articles-item{
+width: 304px;
+}
+
+.fixed{
+display: flex;
+justify-content: center;
+
+}
+
+
+
+.foot{
+height: 464px;
+    background-color: black;
+}
+
+
+footer img{
+width: 100%;
+}
+
+.center p{
+
+    color: #FFF;
+    text-align: center;
+    font-family: New York Small;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+    padding-bottom: 25px;   
+}
+
+.center .logo{
+display: flex;
+justify-content: center;
+padding-top: 105px;
+padding-bottom: 25px;
+}
+
+.link{
+display: flex;
+gap: 25px;
+justify-content: center;
+}
+
+.link a{
+    padding-bottom: 64px;
+    color: #FFF;
+    font-family: SF Pro Text;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 170%; /* 27.2px */
+    text-decoration-line: underline;
+}
+.bott{
+    display: flex;
+    justify-content: center;
+
+    color: #FFF;
+text-align: center;
+font-family: SF Pro Text;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; /* 16.8px */
+}

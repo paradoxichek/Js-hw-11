@@ -1,0 +1,185 @@
+@media( max-width:1200px) {
+
+    .container{
+width: 900px;
+
+    }
+.header{
+height: 800px;
+}
+
+.h11{
+height: 700px;
+}
+}
+
+@media(max-width:992px){
+
+    .container{
+        width: 700px;
+    }
+
+    .header{
+    height: 700px;
+    }
+.h11{
+height: 600px;
+}
+
+    #none{
+    display: none;
+    }
+    #none2{
+    display: none;
+    }
+}
+
+@media(max-width:768px){
+.container{
+width: 500px;
+}
+
+.h11{
+height: 500px;
+}
+.header{
+height: 600px;
+}
+
+.neww input {
+    width: 500px;
+    height: 50px;
+    flex-shrink: 0;
+}
+
+.shoes_grid {
+
+    grid-template-columns: repeat(2,1fr);
+
+
+}
+
+.footerr {
+
+    grid-template-columns: repeat(2,1fr);
+
+}
+
+.footer_item h4{
+padding-top: 30px;
+}
+
+.logo svg{
+width: 140px;
+height: 30px;
+}
+.right{
+gap: 13px;
+}
+.left a{
+    font-size: 17px;
+
+}
+}
+
+
+@media(max-width:576px){
+.container{
+width: 100%;
+padding: 20px;
+}
+.h11{
+    height: 400px;
+    }
+    .header{
+    height: 500px;
+    }
+
+    .neww input {
+        width: 300px;
+        height: 50px;
+        flex-shrink: 0;
+    }
+.btn button{
+    width: 300px;
+}
+    .left nav{
+    display: none;
+    }
+.free{
+display: block;
+}
+
+#none3{
+display: none;
+}
+
+.logo svg{
+    width: 120px;
+    height: 20px;
+    }
+
+    .new_collection h1{
+    font-size: 33px;
+    }
+
+    hr {
+        width: 100px;
+
+    }
+    
+
+    .new_collection a {
+        color: #FFF;
+        text-align: center;
+        font-family: Raleway;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+
+#none7{
+display: none;
+}
+
+#none8{
+display: none;
+}
+
+.neww h3 {
+    color: #252525;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding-top: 100px;
+    padding-bottom: 50px
+}
+
+
+.neww p{
+    color: #252525;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+}
+
+
+.footerr {
+
+    grid-template-columns: repeat(1,1fr);
+
+}
+
+
+
+
+}
