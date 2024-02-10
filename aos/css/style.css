@@ -1,0 +1,225 @@
+/* Reset and base styles  */
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  border: none;
+}
+
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+img,
+svg {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 50px 50px 0 0;
+  display: flex;
+  align-items: center;
+  gap: 165px;
+}
+
+.header__nav a {
+  padding-left: 40px;
+  color: rgb(34, 34, 34);
+  font-family: Work Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 10px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.header__nav .blue {
+  color: rgb(0, 130, 243);
+  font-family: Work Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 10px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.instant__flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.instant__flex .text {
+  padding-left: 100px;
+}
+.instant__flex .text h1 {
+  color: rgb(51, 51, 51);
+  font-family: Work Sans;
+  font-size: 55px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding-bottom: 32px;
+}
+.instant__flex .text p {
+  padding-bottom: 30px;
+  color: rgb(51, 51, 51);
+  font-family: Work Sans;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.terms {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 144px;
+}
+.terms .text2 h2 {
+  color: rgb(51, 51, 51);
+  font-family: Work Sans;
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding-bottom: 32px;
+}
+.terms .text2 p {
+  padding-bottom: 30px;
+  color: rgb(51, 51, 51);
+  font-family: Work Sans;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.works .arrow1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background: rgb(88, 46, 255);
+}
+.works h3 {
+  color: rgb(51, 51, 51);
+  font-family: Work Sans;
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding-bottom: 40px;
+  padding-top: 88px;
+}
+.works__flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 26px;
+}
+.works__flex .works__item {
+  box-shadow: 1px 0px 10px 0px rgb(183, 183, 183);
+  background: rgb(255, 255, 255);
+  width: 288px;
+  height: 327px;
+  position: relative;
+}
+.works__flex .works__item h4 {
+  padding-bottom: 31px;
+  color: rgb(51, 51, 51);
+  font-family: Work Sans;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.works__flex .works__item p {
+  color: rgb(51, 51, 51);
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.works__flex .works__item .imgg {
+  padding-top: 42px;
+  padding-bottom: 49px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.works__flex .works__item .paloch {
+  position: absolute;
+  width: 100%;
+  height: 12px;
+  background-color: rgb(88, 46, 255);
+}
+
+.donwload1 {
+  width: 100%;
+  height: 371px;
+  background: rgb(49, 197, 161);
+  margin-top: 29px;
+}
+.donwload1 h5 {
+  padding-bottom: 40px;
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.donwload1 .text5 {
+  padding-top: 131px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.donwload1 .donwload {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.flex__footer {
+  padding-top: 50px;
+  display: flex;
+  gap: 150px;
+  align-items: center;
+}
+.flex__footer .item p {
+  color: rgb(51, 51, 51);
+  font-family: Work Sans;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}/*# sourceMappingURL=style.css.map */
